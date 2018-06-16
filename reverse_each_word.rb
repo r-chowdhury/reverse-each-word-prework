@@ -10,4 +10,4 @@ end
 
 
 sentence = "Hello there, and how are you?"
-puts sentence.split(/ /)
+puts sentence.split(' ')
