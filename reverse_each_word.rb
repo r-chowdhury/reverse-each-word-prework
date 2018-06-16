@@ -10,4 +10,4 @@
 
 
 sentence = "Hello there, and how are you?"
-puts sentence.split(",")
+puts puts [1,2,3]
