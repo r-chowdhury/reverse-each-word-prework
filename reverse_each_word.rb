@@ -7,7 +7,7 @@ def reverse_each_word(sentence)
     arr_reverse.push(word.reverse)
   end
   
-  return reversed_words.join(",")
+  return arr_reverse.join(",")
   
   
 end
