@@ -1,14 +1,8 @@
 def reverse_each_word(sentence)
-  sentence_to_arr = sentence.split(",")
+  sentence_to_arr = sentence.split(",") #turns the string into an array 
+  sentence.collect
   
-  reversed_array = []
-  sentence_to_arr.each do [word]
-    reversed_word = word.reverse
-    reversed_array.insert(reversed_word)
-  end
-  reversed_array.each do [word]
-    return word.join(' ')
-  end
+  
 end
 
 
